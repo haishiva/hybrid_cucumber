@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><testng-results failed="2" passed="0" skipped="0" total="2">
+<suite duration-ms="20698" name="io.cucumber.core.plugin.TestNGFormatter">
+<test duration-ms="20698" name="io.cucumber.core.plugin.TestNGFormatter">
+<class name="To Test the OrangeHrm Application">
+<test-method duration-ms="11044" finished-at="2020-09-17T08:30:12.599Z" name="To Test the Admin Functionality of OrangeHrm" started-at="2020-09-17T08:30:01.380Z" status="FAIL">
+<exception class="org.openqa.selenium.WebDriverException">
+<message><![CDATA[Given To launch the browser and Navigate to the Url.........................failed
+When To Enter Username and Password.........................................skipped
+Then To Click the Submit button.............................................skipped
+Then To Take the Screenshot and the Title...................................skipped
+Given To Open Admin functionlity of OrangeHrm...............................skipped
+When To Enter "Akhil".......................................................skipped
+Then Select "Admin".........................................................skipped
+Then To Enter EmployeeName..................................................skipped
+Then Select Status..........................................................skipped
+Then Click Search Button....................................................skipped
+Then Take the Screenshot and the Title......................................skipped
+Then Close the browser......................................................skipped
+]]></message>
+<full-stacktrace><![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=85.0.4183.102)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-9HUOTQA', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\SHIVAK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a66d3e2a3643366cda373c6b1e6a561e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.base_class.Library.browserSetUp(Library.java:84)
+	at com.step_definition.OrangeHRMLoginSteps.to_launch_the_browser_and_Navigate_to_the_Url(OrangeHRMLoginSteps.java:18)
+	at ✽.To launch the browser and Navigate to the Url(file:///C:/Users/shiva%20kumar/eclipse-workspace/hybrid_cucumber/src/test/resources/features/TestCase.feature:4)
+]]></full-stacktrace>
+</exception>
+</test-method>
+<test-method duration-ms="7994" finished-at="2020-09-17T08:30:21.410Z" name="To Test the Admin Functionality of OrangeHrm_2" started-at="2020-09-17T08:30:13.412Z" status="FAIL">
+<exception class="org.openqa.selenium.WebDriverException">
+<message><![CDATA[Given To launch the browser and Navigate to the Url.........................failed
+When To Enter Username and Password.........................................skipped
+Then To Click the Submit button.............................................skipped
+Then To Take the Screenshot and the Title...................................skipped
+Given To Open Admin functionlity of OrangeHrm...............................skipped
+When To Enter "shiva".......................................................skipped
+Then Select "All"...........................................................skipped
+Then To Enter EmployeeName..................................................skipped
+Then Select Status..........................................................skipped
+Then Click Search Button....................................................skipped
+Then Take the Screenshot and the Title......................................skipped
+Then Close the browser......................................................skipped
+]]></message>
+<full-stacktrace><![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=85.0.4183.102)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-9HUOTQA', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\SHIVAK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eb295681c039eb387463f1ec7c10f981
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.base_class.Library.browserSetUp(Library.java:84)
+	at com.step_definition.OrangeHRMLoginSteps.to_launch_the_browser_and_Navigate_to_the_Url(OrangeHRMLoginSteps.java:18)
+	at ✽.To launch the browser and Navigate to the Url(file:///C:/Users/shiva%20kumar/eclipse-workspace/hybrid_cucumber/src/test/resources/features/TestCase.feature:4)
+]]></full-stacktrace>
+</exception>
+</test-method>
+</class>
+</test>
+</suite>
+</testng-results>
